@@ -1,5 +1,8 @@
-openai
 Requests
 streamlit
 tenacity
 tiktoken
+pymongo
+base64
+cryptography
+cryptography.fernet

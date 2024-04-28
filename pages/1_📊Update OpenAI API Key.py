@@ -1,5 +1,4 @@
 import streamlit as st
-from utils import st_def
 from cryptography.fernet import Fernet
 import pymongo
 import base64

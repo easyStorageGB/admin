@@ -1,4 +1,4 @@
-import requests, openai
+import requests
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 
 @retry(wait=wait_random_exponential(multiplier=1, max=40), stop=stop_after_attempt(3))
